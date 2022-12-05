@@ -129,16 +129,69 @@
       <p>
         The most common question I get asked: <br>
         How many cubes do you have? <br>
-        Now you can count them instead of me! :)
+        Now you can count them instead of me! :) <br>
+        The text on this page is just the names and short descriptions of each cube
       </p>
       <p>Images for the Page 2</p>
         <img src="./images/" alt="./images/">
-        <p>(There's a lot...)</p>
+        <p>(All my cubes)</p>
         
       </ul>
       <h3>Solving</h3>
       <p>
-        [Written copy for the Page 3 here]
+        Notation
+Each letter indicates a turn of that face 90 degrees clockwise
+An apostrophe means to reverse the move (turn counterclockwise).
+A 2 just means do the move twice
+
+White Cross
+Find an edge with white on one side, hold the cube with white on top and the other color on the edge piece in front
+use D and F moves to bring the edge into the top front, if the colors don't line up, do F' L D L' F2 to flip the piece
+Repeat with all 4 white edges
+
+White Corners
+*White face is on the bottom*
+Find a corner with a white side, use U moves to place the corner above where it should go.
+If the white side is on the right, turn the cube so the corner is on the right and use R U R' U'
+If the white side is on the left, turn the cube so the corner is on the left and use L' U' L U
+If the white side is on top, you can pick either set of moves and do it 3 times
+
+Edges
+*White face is on the bottom*
+Find an edge that dosn't have yellow,
+line it up with the face that is on the side
+If the top side is the color on the right, do U R U R' U' F' U' F
+If the top side is the color on the left, do U' L' U' L U F U F'
+
+Yellow Cross
+*White face is on the bottom*
+If you have all 4 yellow edges on top, skip to the next step
+If the yellow edges on top form a V, put the V in the top left corner and do the algorithm twice
+If the yellow edges on top form a line, put the line right-left and do the algorithm
+F R U R' U' F'
+
+Yellow Corners
+*White face is on the bottom*
+The goal of this step is to find a fishy :)
+you should have a yellow X on top and any number ofcorners faceing up
+if only 1 corner is up, put that corner on the front left and do the algorithm
+in any other circumstance, find the edge with the least yellow and do the algorithm with that side in front
+R U R' U R U2 R'
+
+Position Yellow Corners
+*White face is on the bottom*
+Now the corners, look at all 4 sides and try to find a side with matching corners
+if you find one, put it on the left face and do the algorithm
+B' R B' L2 B R' B' L2 B2
+
+Position Yellow Edges
+*White face is on the bottom*
+The last step is to put the edges into place,
+these 2 algorithms rotate the edges on the front, right, and left faces
+Clockwise F2 U L R' F2 L' R U F2
+Counter-Clockwise F2 U' L R' F2 L' R U' F2
+
+
       </p>
       <p>Images for the Page 3</p>
         <img src="./images/notation/" alt="./images/notation/">
