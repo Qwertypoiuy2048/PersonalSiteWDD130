@@ -73,6 +73,9 @@ p {
   color: var(--paragraph-color);
   padding: 1em;
 }
+.logo {
+  height: 160px;
+}
 .colors {
   width: 100%;
   min-width: 350px;

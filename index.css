@@ -1,3 +1,22 @@
+/*
+text colors 
+yellow #ffe100
+white #fff
+
+background colors
+blue #076ae1
+green #00a23a
+red #e40428
+
+
+Jessica helped...
+green #00A23A
+orange #f27a18
+yellow #ffde0a
+Blue #004a8f
+dark red #83110b
+*/
+
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #076ae1;
@@ -15,16 +34,28 @@
   --paragraph-color-on-white: #076ae1; /* paragraph text on a white background */
   --paragraph-color-on-color: #ffe100; /* paragraph text on a colored background */
   --paragraph-background-color: #076ae1;
-  --nav-link-color: #ffe100;
+  --nav-link-color: #fff;
   --nav-background-color: #076ae1;
   --nav-hover-link-color: #ffe100;
   --nav-hover-background-color: #00a23a;
 }
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
 body {
   margin: 0;
+  font-family: Rubik, Helvetica, sans-serif;
+  background-color: lightskyblue;
+  color: #ffe100;
 }
+p {
+  font-size: 18px;
+}
+/* h3 {
+  margin-top: 0px;
+} */
 .image {
   width: 100%;
+  margin: 0px;
 }
 nav {
   display: grid;
@@ -77,8 +108,49 @@ nav a:hover {
 .logo {
   height: 160px;
 }
-.colored {
-  background-color: gray;
+.coloredG {
+  background-color: #00a23a;
+  color: #ffe100;
+  margin: 0px 5px;
+  padding: 10px 5px;
+}
+.coloredB {
+  background-color: var(--primary-color);
+  color: #ffe100;
+  margin: 0px 5px;
+  padding: 10px 5px;
+}
+.plaindiv {
+  background-color: #e40428;
+  margin: 0px 5px;
+  padding: 10px 5px;
+}
+.in {
+  border: 5px inset #ef7d00;
+}
+.out {
+  border: 5px outset #ef7d00;
+}
+
+footer {
+  color: #000;
+  background-color: #ef7d00;
+  padding: 25px 50px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+footer p a:hover {
+  background-color: #a43312;
+  text-decoration: underline;
+}
+footer .social img {
+  padding-top: 15px;
 }
 
 /* CSS for RubiksDisplay */
@@ -100,6 +172,7 @@ nav a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
+  gap: 0px 0px;
 }
 .Axis1 {
   width: 100%;
@@ -120,15 +193,22 @@ nav a:hover {
 } */
 .placehold {
   height: 200px;
-  background-color: gray;
+  background-color: #00a23a;
 }
 /* CSS for sites.html */
+.title {
+  display: block;
+  background-color: #ef7d00;
+  width: 20%;
+  border: 5px double #e40428;
+  margin: 7px 39%;
+  color: #000;
+}
 .notation {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   column-width: 8%;
   column-gap: 4px;
-  border: 5px double #000;
 }
 .move {
   width: 100%;
@@ -178,6 +258,7 @@ nav a:hover {
 }
 .contact {
   background-color: lightskyblue;
+  color: #000;
 }
 
 form {
