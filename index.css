@@ -142,11 +142,11 @@ footer {
   align-items: center;
 }
 footer a {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: #fff;
 }
 footer p a {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: #fff;
   background-color: #076ae1;
   font-size: 18px;
@@ -156,10 +156,11 @@ footer p a {
 }
 footer p a:hover {
   background-color: #00a23a;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 footer .social img {
   padding-top: 15px;
+  text-decoration: none;
 }
 
 /* CSS for RubiksDisplay */
