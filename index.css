@@ -205,6 +205,7 @@ footer .social img {
   height: 200px;
   background-color: #00a23a;
 }
+
 /* CSS for sites.html */
 .title {
   display: block;
@@ -259,6 +260,34 @@ footer .social img {
 }
 .FLL {
   width: 50px;
+}
+
+/* CSS for homepage */
+.hovergreen :hover {
+  background-color: #00a23a;
+  padding: 5px;
+}
+.hovergreen {
+  font-size: 18px;
+}
+.topspace {
+  margin-top: 10px;
+}
+.records {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0px 20px;
+}
+.record {
+  border: 2px solid #e40428;
+}
+.breakdown {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0px 20px;
+}
+.broke {
+  border: 2px solid #e40428;
 }
 
 /* CSS for Contact us */
